@@ -1,0 +1,25 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 40%;
+    margin-top: 20px;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+}
+  
+td, th {
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+  
+tr:nth-child(even) {
+    background-color: #dff7be;
+}
+tr:nth-child(odd) {
+    background-color: #61a800;
+}
+i{
+    font-size: 50px;
+    cursor: pointer;
+}
